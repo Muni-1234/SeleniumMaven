@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation Regresion Suite" verbose="1"
+	thread-count="2" parallel="tests">
+	
+	<test name="Orangehrm - Chrome Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopCommerce.orangehrm" />
+		</classes>
+	</test>
+	
+	<!--
+	<test name = "Orangehrm - Firefox Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopCommerce.orangehrm" /> 
+		</classes>
+	</test>
+	 -->
+	 	
+	<!--
+	<test name = "Orangehrm - ie Test">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.nopCommerce.orangehrm" />
+		</classes>
+	</test>
+	-->
+	
+	<!--
+	<test name = "Orangehrm - Edge Test">
+		<parameter name="browser" value="Edge" />	
+		<classes>
+			<class name="com.nopCommerce.orangehrm" />
+		</classes>
+	</test>
+    -->
+    
+</suite>
