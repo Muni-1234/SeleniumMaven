@@ -11,15 +11,13 @@
 		</classes>
 	</test>
 	
-	<!--
 	<test name = "Orangehrm - Firefox Test">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.nopCommerce.orangehrm" /> 
 		</classes>
 	</test>
-	 -->
-	 	
+		
 	<!--
 	<test name = "Orangehrm - ie Test">
 		<parameter name="browser" value="ie" />
